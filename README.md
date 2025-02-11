@@ -8,6 +8,8 @@ For more information, please refer to the course [DD2480](https://www.kth.se/stu
 
 ## How to setup
 
+example change
+
 ### Prerequisites
 
 You need to have Python 3.11 installed, then run `pip3 install -r requirements.txt` to installed the required packages.
