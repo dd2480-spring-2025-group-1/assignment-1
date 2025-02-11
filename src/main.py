@@ -12,7 +12,7 @@ puv: list[bool]  # Used with PUM to derive LAUNCH
 verbose: bool = False
 padf = 4
 adfa = 9
-
+adf= 6
 # Helper functions
 def get_cli_args() -> tuple[str, bool]:
     parser = argparse.ArgumentParser(description="Launch decision maker")
