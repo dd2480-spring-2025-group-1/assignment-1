@@ -11,6 +11,7 @@ lcm: list[list[Connectors]]  # Used with CMV to derive PUM
 puv: list[bool]  # Used with PUM to derive LAUNCH
 verbose: bool = False
 puk =3
+padf = 4
 
 # Helper functions
 def get_cli_args() -> tuple[str, bool]:
