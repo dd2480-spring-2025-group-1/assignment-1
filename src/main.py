@@ -10,6 +10,7 @@ parameters: Parameters  # Used to derive CMV
 lcm: list[list[Connectors]]  # Used with CMV to derive PUM
 puv: list[bool]  # Used with PUM to derive LAUNCH
 verbose: bool = False
+adf= 0
 
 # Helper functions
 def get_cli_args() -> tuple[str, bool]:
