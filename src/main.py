@@ -14,6 +14,7 @@ padf = 4
 adfa = 9
 adf= 6
 adfs= 4
+rambo=0
 # Helper functions
 def get_cli_args() -> tuple[str, bool]:
     parser = argparse.ArgumentParser(description="Launch decision maker")
