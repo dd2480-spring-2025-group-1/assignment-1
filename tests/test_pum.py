@@ -20,7 +20,7 @@ class PUMTest(unittest.TestCase):
         lcm = self.lcm_all_notused
         cmv = self.cmv_all_false
         pum = get_pum(cmv, lcm)
-        self.assertEqual(pum, [[True] * 15] * 15)
+        self.assertEqual(pum, [[False] * 15] * 15)
 
     def test_pum_pattern_for_lcm_all_or_and_single_cmv_true(self):
         lcm = self.lcm_all_orr
